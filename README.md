@@ -2,11 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Create your own Enumerable.
-
-## Project requirements
-
-The project requirements can be viewed [here](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/create_your_own_enumerable.md)
+>Sschool library app that implement the classes to represent students and teachers.
 
 ## Built With
 
@@ -27,7 +23,7 @@ The project requirements can be viewed [here](https://github.com/microverseinc/c
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Hombre2014/Enumerable).
+Feel free to check the [issues page](https://github.com/vic778/school-library).
 
 ## Show your support
 
