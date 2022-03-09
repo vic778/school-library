@@ -1,3 +1,5 @@
+require_relative './corrector'
+
 class Person
   attr_accessor :name, :age
   attr_reader :id
@@ -5,8 +7,13 @@ class Person
   def initialize(age, name = 'Unknown', parent_permission: true)
     @id = Random.rand(1..1000)
     @age = age
-    @name = name
+    @name = name.capitalize
     @parent_permission = parent_permission
+    @corrector = Corrector.new
+  end
+
+  def validate_name
+    @name = @corrector.correct_name(name)
   end
 
   def can_use_services?
@@ -20,6 +27,6 @@ class Person
   end
 end
 
-person = Person.new(20, 'victor')
+person = Person.new(20, 'victorbarhere')
+person.validate_name
 puts person.name
-puts person.can_use_services?
