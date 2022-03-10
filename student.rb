@@ -21,8 +21,3 @@ class Student < Person
     "¯\(ツ)/¯"
   end
 end
-
-student = Student.new('class1', 24, 'barh', parent_permission: false)
-
-puts student.name
-puts student.can_use_services?
