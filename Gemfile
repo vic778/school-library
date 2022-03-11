@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'nokogiri'
+gem 'pry', '~> 0.13.1'
 gem 'rack', '~> 2.0.1'
 gem 'rspec'
 gem 'rubocop', '>= 1.0', '< 2.0'
