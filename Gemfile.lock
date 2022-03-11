@@ -2,12 +2,17 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    coderay (1.1.3)
     diff-lcs (1.5.0)
+    method_source (1.0.0)
     nokogiri (1.13.3-x86_64-linux)
       racc (~> 1.4)
     parallel (1.21.0)
     parser (3.1.1.0)
       ast (~> 2.4.1)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     racc (1.6.0)
     rack (2.0.9)
     rainbow (3.1.1)
@@ -45,6 +50,7 @@ PLATFORMS
 
 DEPENDENCIES
   nokogiri
+  pry (~> 0.13.1)
   rack (~> 2.0.1)
   rspec
   rubocop (>= 1.0, < 2.0)
